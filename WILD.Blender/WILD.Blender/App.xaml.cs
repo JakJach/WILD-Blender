@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using NLog;
+using SpotifyAPI.Web;
+using SpotifyAPI.Web.Auth;
+using System;
 using System.Configuration;
-using System.Data;
-using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
@@ -13,5 +13,6 @@ namespace WILD.Blender
     /// </summary>
     public partial class App : Application
     {
+
     }
 }
